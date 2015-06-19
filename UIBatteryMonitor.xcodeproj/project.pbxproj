@@ -13,6 +13,7 @@
 		5D0C79BC1B3450970025219F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C79BB1B3450970025219F /* Images.xcassets */; };
 		5D0C79BF1B3450970025219F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C79BD1B3450970025219F /* LaunchScreen.xib */; };
 		5D0C79CB1B3450970025219F /* UIBatteryMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C79CA1B3450970025219F /* UIBatteryMonitorTests.swift */; };
+		5D0C79D61B34519E0025219F /* UIBatteryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C79D51B34519E0025219F /* UIBatteryMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5D0C79C41B3450970025219F /* UIBatteryMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBatteryMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0C79C91B3450970025219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D0C79CA1B3450970025219F /* UIBatteryMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBatteryMonitorTests.swift; sourceTree = "<group>"; };
+		5D0C79D51B34519E0025219F /* UIBatteryMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBatteryMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		5D0C79B11B3450970025219F /* UIBatteryMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				5D0C79D51B34519E0025219F /* UIBatteryMonitor.swift */,
 			);
 			path = UIBatteryMonitor;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			files = (
 				5D0C79B71B3450970025219F /* ViewController.swift in Sources */,
 				5D0C79B51B3450970025219F /* AppDelegate.swift in Sources */,
+				5D0C79D61B34519E0025219F /* UIBatteryMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +422,7 @@
 				5D0C79D01B3450970025219F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D0C79D11B3450970025219F /* Build configuration list for PBXNativeTarget "UIBatteryMonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				5D0C79D31B3450970025219F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
