@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0C79B51B3450970025219F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C79B41B3450970025219F /* AppDelegate.swift */; };
+		5D0C79B71B3450970025219F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C79B61B3450970025219F /* ViewController.swift */; };
+		5D0C79BA1B3450970025219F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C79B81B3450970025219F /* Main.storyboard */; };
+		5D0C79BC1B3450970025219F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C79BB1B3450970025219F /* Images.xcassets */; };
+		5D0C79BF1B3450970025219F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D0C79BD1B3450970025219F /* LaunchScreen.xib */; };
+		5D0C79CB1B3450970025219F /* UIBatteryMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0C79CA1B3450970025219F /* UIBatteryMonitorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D0C79C51B3450970025219F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D0C79A71B3450970025219F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0C79AE1B3450970025219F;
+			remoteInfo = UIBatteryMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D0C79AF1B3450970025219F /* UIBatteryMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBatteryMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0C79B31B3450970025219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0C79B41B3450970025219F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D0C79B61B3450970025219F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D0C79B91B3450970025219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D0C79BB1B3450970025219F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5D0C79BE1B3450970025219F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5D0C79C41B3450970025219F /* UIBatteryMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBatteryMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0C79C91B3450970025219F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0C79CA1B3450970025219F /* UIBatteryMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBatteryMonitorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0C79AC1B3450970025219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0C79C11B3450970025219F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0C79A61B3450970025219F = {
+			isa = PBXGroup;
+			children = (
+				5D0C79B11B3450970025219F /* UIBatteryMonitor */,
+				5D0C79D41B3450A80025219F /* Example */,
+				5D0C79C71B3450970025219F /* UIBatteryMonitorTests */,
+				5D0C79B01B3450970025219F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0C79B01B3450970025219F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C79AF1B3450970025219F /* UIBatteryMonitor.app */,
+				5D0C79C41B3450970025219F /* UIBatteryMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0C79B11B3450970025219F /* UIBatteryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIBatteryMonitor;
+			sourceTree = "<group>";
+		};
+		5D0C79B21B3450970025219F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C79B31B3450970025219F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D0C79C71B3450970025219F /* UIBatteryMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C79CA1B3450970025219F /* UIBatteryMonitorTests.swift */,
+				5D0C79C81B3450970025219F /* Supporting Files */,
+			);
+			path = UIBatteryMonitorTests;
+			sourceTree = "<group>";
+		};
+		5D0C79C81B3450970025219F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C79C91B3450970025219F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D0C79D41B3450A80025219F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C79B41B3450970025219F /* AppDelegate.swift */,
+				5D0C79B61B3450970025219F /* ViewController.swift */,
+				5D0C79B81B3450970025219F /* Main.storyboard */,
+				5D0C79BB1B3450970025219F /* Images.xcassets */,
+				5D0C79BD1B3450970025219F /* LaunchScreen.xib */,
+				5D0C79B21B3450970025219F /* Supporting Files */,
+			);
+			name = Example;
+			path = UIBatteryMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0C79AE1B3450970025219F /* UIBatteryMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0C79CE1B3450970025219F /* Build configuration list for PBXNativeTarget "UIBatteryMonitor" */;
+			buildPhases = (
+				5D0C79AB1B3450970025219F /* Sources */,
+				5D0C79AC1B3450970025219F /* Frameworks */,
+				5D0C79AD1B3450970025219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIBatteryMonitor;
+			productName = UIBatteryMonitor;
+			productReference = 5D0C79AF1B3450970025219F /* UIBatteryMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D0C79C31B3450970025219F /* UIBatteryMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0C79D11B3450970025219F /* Build configuration list for PBXNativeTarget "UIBatteryMonitorTests" */;
+			buildPhases = (
+				5D0C79C01B3450970025219F /* Sources */,
+				5D0C79C11B3450970025219F /* Frameworks */,
+				5D0C79C21B3450970025219F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D0C79C61B3450970025219F /* PBXTargetDependency */,
+			);
+			name = UIBatteryMonitorTests;
+			productName = UIBatteryMonitorTests;
+			productReference = 5D0C79C41B3450970025219F /* UIBatteryMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D0C79A71B3450970025219F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hot Cocoa Software";
+				TargetAttributes = {
+					5D0C79AE1B3450970025219F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5D0C79C31B3450970025219F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5D0C79AE1B3450970025219F;
+					};
+				};
+			};
+			buildConfigurationList = 5D0C79AA1B3450970025219F /* Build configuration list for PBXProject "UIBatteryMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D0C79A61B3450970025219F;
+			productRefGroup = 5D0C79B01B3450970025219F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0C79AE1B3450970025219F /* UIBatteryMonitor */,
+				5D0C79C31B3450970025219F /* UIBatteryMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0C79AD1B3450970025219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0C79BA1B3450970025219F /* Main.storyboard in Resources */,
+				5D0C79BF1B3450970025219F /* LaunchScreen.xib in Resources */,
+				5D0C79BC1B3450970025219F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0C79C21B3450970025219F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0C79AB1B3450970025219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0C79B71B3450970025219F /* ViewController.swift in Sources */,
+				5D0C79B51B3450970025219F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0C79C01B3450970025219F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0C79CB1B3450970025219F /* UIBatteryMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D0C79C61B3450970025219F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0C79AE1B3450970025219F /* UIBatteryMonitor */;
+			targetProxy = 5D0C79C51B3450970025219F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D0C79B81B3450970025219F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0C79B91B3450970025219F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0C79BD1B3450970025219F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0C79BE1B3450970025219F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D0C79CC1B3450970025219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D0C79CD1B3450970025219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0C79CF1B3450970025219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIBatteryMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D0C79D01B3450970025219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIBatteryMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D0C79D21B3450970025219F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIBatteryMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBatteryMonitor.app/UIBatteryMonitor";
+			};
+			name = Debug;
+		};
+		5D0C79D31B3450970025219F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIBatteryMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBatteryMonitor.app/UIBatteryMonitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D0C79AA1B3450970025219F /* Build configuration list for PBXProject "UIBatteryMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0C79CC1B3450970025219F /* Debug */,
+				5D0C79CD1B3450970025219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0C79CE1B3450970025219F /* Build configuration list for PBXNativeTarget "UIBatteryMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0C79CF1B3450970025219F /* Debug */,
+				5D0C79D01B3450970025219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D0C79D11B3450970025219F /* Build configuration list for PBXNativeTarget "UIBatteryMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0C79D21B3450970025219F /* Debug */,
+				5D0C79D31B3450970025219F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D0C79A71B3450970025219F /* Project object */;
+}
