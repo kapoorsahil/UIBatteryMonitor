@@ -165,6 +165,15 @@ extension UIBatteryMonitor {
             }
         }
     }
+    
+    func batteryStateChanged() {
+        let percentage = batteryPercentage()
+        let state = device.batteryState
+        
+        delegate?.currentBatteryStateChanged?(state)
+        delegate?.currentBatteryStatusChanged?(state, percentage)
+        batteryLevel = calculateBatteryLevelFromPercentage()
+    }
 }
 
 // MARK:- Private Methods
